@@ -36,18 +36,18 @@
     padding: 0;
 }
 a {
-    color: #09aeb8;
+    color: #b80909;
     text-decoration: none !important;
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s;
 }
 ::-moz-selection {
-    background-color: #38adb6;
+    background-color: #b80909;
     color: #ffffff;
 }
 ::selection {
-    background-color: #38adb6;
+    background-color: #b80909;
     color: #ffffff;
 }
 select {
@@ -1810,8 +1810,8 @@ section.about_area img.about_shape {
     color: #09aeb8;
 }
 .about_service_left .about_service_year {
-    background-color: #f5d974;
-    color: #38373c;
+    background-color: #094fb8;
+    color: #fff;
     position: absolute;
     right: -50px;
     bottom: 0;
@@ -1827,7 +1827,7 @@ section.about_area img.about_shape {
     display: inline-block;
     line-height: 26px;
     margin-top: 10px;
-    color: #38373c;
+    color: #fff;
     font-weight: 300;
 }
 .about_service_right .about_service_discount p {
