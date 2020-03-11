@@ -278,6 +278,7 @@ body {
     display: inline-block;
     margin-top: 10px;
 }
+
 .header_area {
     padding: 15px 0;
 }
@@ -538,19 +539,19 @@ body {
     overflow: hidden;
 }
 .header_slider_bg {
-    background: url(../images/slider/slider-1.jpg) center center no-repeat;
+    background: url(../images/slider/slider-home-1.jpg) center center no-repeat;
     background-size: cover;
     height: 100%;
-    padding: 338px 0 238px 0;
+    padding: 180px 0 238px 0;
     -webkit-transition: .4s;
     -o-transition: .4s;
     transition: .4s;
 }
 .slider_bg2 {
-    background-image: url(../images/slider/slider-2.jpg);
+    background-image: url(../images/slider/slider-home-2.jpg);
 }
 .slider_bg3 {
-    background-image: url(../images/slider/slider-3.jpg);
+    background-image: url(../images/slider/slider-home-3.jpg);
 }
 .header_slider_area .owl-item .header_slider_bg p {
     margin-left: -200px;
@@ -854,7 +855,7 @@ body {
     position: relative;
     height: 435px;
     width: 95%;
-    background: url(../images/about-2-1.jpg) center center no-repeat;
+    background: url(../images/about-home.jpg) center center no-repeat;
     background-size: cover;
 }
 .about_image .about_service_box_1 {
