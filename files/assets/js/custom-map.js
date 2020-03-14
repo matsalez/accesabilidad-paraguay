@@ -15,10 +15,10 @@ function initMap(dom_el_id, lat, lng, marker_icon) {
         dom_el_id = 'map';
     }
     if (typeof lat === 'undefined') {
-        lat = 40.712776;
+        lat = -25.279960;
     }
     if (typeof lng === 'undefined') {
-        lng = -74.005974;
+        lng = -57.638490;
     }
     if (typeof marker_icon === 'undefined') {
         marker_icon = 'assets/images/map-marker.png';
@@ -189,5 +189,5 @@ jQuery(document).on('ready', function ($) {
     /*** =====================================
      * Google Maps
      * =====================================***/
-    initMap('map', 40.712776, -74.005974, 'assets/images/map-marker.png');
+    initMap('map', -25.279960, -57.638490, 'assets/images/map-marker.png');
 });

@@ -2537,7 +2537,7 @@ input.half_width {
     font-size: 45px;
     display: block;
     margin-bottom: 20px;
-    color: #09aeb8;
+    color: #b80909;
 }
 .contact_location_box {
     display: -webkit-box;
@@ -2628,7 +2628,7 @@ input.half_width {
     font-weight: 600;
 }
 .footer_link li a:hover {
-    color: #09aeb8;
+    color: #b80909;
 }
 .footer_link.extra_mt {
     margin-top: 57px;
