@@ -792,7 +792,7 @@ body {
 }
 .about_style_3_details h1 span {
     font-weight: 300;
-    color: #09aeb8;
+    color: #b80909;
 }
 .about_style_3_details h1 {
     font-weight: 600;
@@ -1136,7 +1136,7 @@ section.about_area img.about_shape {
 }
 .service_benefits_box > i {
     font-size: 65px;
-    color: #09aeb8;
+    color: #094fb8;
 }
 
 
@@ -1506,7 +1506,7 @@ section.about_area img.about_shape {
 ------------------------------------*/
 .counter_box .counter {
     display: inline-block;
-    color: #09aeb8;
+    color: #094fb8;
     font-size: 100px;
     position: relative;
     font-weight: 300;
@@ -1807,7 +1807,7 @@ section.about_area img.about_shape {
 }
 .about_service_right ul li > i {
     margin-right: 10px;
-    color: #09aeb8;
+    color: #094fb8;
 }
 .about_service_left .about_service_year {
     background-color: #094fb8;
