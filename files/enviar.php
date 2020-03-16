@@ -10,24 +10,24 @@ if ( !isset($_POST["name"]) || !isset($_POST["email"]) || !isset($_POST["tel"]) 
 }
 
 
-
-
-
 $nombre = $_POST["name"];
 
 $email = $_POST["email"];
 
 $telefono = $_POST["tel"];
 
+$servicios = $_POST["servicios"];
 
 
-$destinatario = "destinatario@eldominio.com";
+
+
+$destinatario = "accesibilidadparaguay@gmail.com";
 
 
 // Datos de la cuenta de correo utilizada para enviar v�a SMTP
-$smtpHost = "mail.tudominio.com";  // Dominio alternativo brindado en el email de alta
-$smtpUsuario = "correo@tudominio.com";  // Mi cuenta de correo
-$smtpClave = "123456789";  // Mi contrase�a
+$smtpHost = "mail.accesibilidadparaguay.com";  // Dominio alternativo brindado en el email de alta
+$smtpUsuario = "formulario@accesibilidadparaguay.com";  // Mi cuenta de correo
+$smtpClave = "formulario2020";  // Mi contrase�a
 
 
 
@@ -35,7 +35,7 @@ $smtpClave = "123456789";  // Mi contrase�a
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->SMTPAuth = true;
-$mail->Port = 587;
+$mail->Port = 9025;
 $mail->IsHTML(true);
 $mail->CharSet = "utf-8";
 
@@ -66,9 +66,9 @@ $mail->Body = "
 
 <p>telefono: {$telefono}</p>
 
-<p>asunto: {$asunto}</p>
+<p>telefono: {$servicios}</p>
 
-<p>mensaje: {$mensaje}</p>
+
 
 </body>
 
@@ -92,9 +92,6 @@ if($estadoEnvio){
 } else {
     echo "Ocurri� un error inesperado.";
 }
-
-
-
 
 
 
